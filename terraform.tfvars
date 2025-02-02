@@ -1,0 +1,9 @@
+aws_region = "us-west-2"
+ami_id = "ami-12345678"
+instance_type = "t3.micro"
+desired_capacity = 3
+max_size = 6
+min_size = 2
+vpc_cidr = "10.1.0.0/16"
+subnet_cidr = "10.1.1.0/24"
+allowed_ports = [22, 80, 443, 8080, 3306]
